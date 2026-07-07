@@ -117,6 +117,33 @@
   .float-zalo a{width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.35rem;box-shadow:0 8px 22px rgba(0,0,0,.3)}
   .fz{background:#0068ff;color:#fff;font-weight:800;font-size:.8rem!important;font-family:var(--sans)}
   .fp{background:linear-gradient(135deg,var(--gold),var(--gold-light));color:var(--deep)}
+
+  /* ===== Mobile ===== */
+  @media(max-width:560px){
+    .container{padding:0 16px}
+    section{padding:40px 0}
+    .hero{padding:38px 0 44px}
+    .hero .container{gap:26px}
+    .hero-cta .btn{width:100%;justify-content:center}
+    .usp{padding:22px 0}
+    .usp .container{grid-template-columns:1fr;gap:14px}
+    .brand span{font-size:.98rem}
+    .topbar .btn{padding:7px 12px;font-size:.78rem}
+    .sec-head{margin-bottom:28px}
+    table{min-width:0;font-size:.8rem}
+    thead th{padding:9px 8px;font-size:.7rem;white-space:normal}
+    tbody td{padding:8px 8px;white-space:normal}
+    tbody td:first-child{font-size:.82rem}
+    td .san{font-size:.72rem}
+    td.gia{font-size:.88rem}
+    td.save{font-size:.72rem}
+    tr.group td{font-size:.88rem}
+  }
+  /* fix grid blowout + chong tran ngang */
+  html,body{max-width:100%;overflow-x:hidden}
+  .hero .container>*,.usp .container>*,.gal-grid>*{min-width:0}
+  .hero-img img{height:auto}
+  img{height:auto}
 </style>
 </head>
 <body>
