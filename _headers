@@ -1,0 +1,5 @@
+/assets/*
+  Cache-Control: public, max-age=2592000
+
+https://tnh-banggia.pages.dev/*
+  X-Robots-Tag: noindex
